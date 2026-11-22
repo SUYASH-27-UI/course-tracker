@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0934877-fe09-4b1d-b927-253b3f227123" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/ALL LECTURE CODE,TEXT,MATHS_PROBLEM_PDF/MONDAY TO FRIDAY ALL 90 DAY OF GURU SIR/CODE DONE BY GURU SIR LECTURE/DAY-74/project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/ALL LECTURE CODE,TEXT,MATHS_PROBLEM_PDF/MONDAY TO FRIDAY ALL 90 DAY OF GURU SIR/CODE DONE BY GURU SIR LECTURE/DAY-74/project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/ALL LECTURE CODE,TEXT,MATHS_PROBLEM_PDF/MONDAY TO FRIDAY ALL 90 DAY OF GURU SIR/CODE DONE BY GURU SIR LECTURE/DAY-74/project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/ALL LECTURE CODE,TEXT,MATHS_PROBLEM_PDF/MONDAY TO FRIDAY ALL 90 DAY OF GURU SIR/CODE DONE BY GURU SIR LECTURE/DAY-74/project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/ALL LECTURE CODE,TEXT,MATHS_PROBLEM_PDF/MONDAY TO FRIDAY ALL 90 DAY OF GURU SIR/CODE DONE BY GURU SIR LECTURE/DAY-74/project/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/javainonevideo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javainonevideo/src/com/engineeringsuyash/javainonevideo/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXCELR FOLDER/MANDATORY ASSIGNMENT HTML &amp; CSS QUESTION-1 TO QUESTION-6/QUESTION-5 ALL FLEXBOX PROPERTIES/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../EXCELR FOLDER/MANDATORY ASSIGNMENT HTML &amp; CSS QUESTION-1 TO QUESTION-6/QUESTION-5 ALL FLEXBOX PROPERTIES/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXCELR FOLDER/SATURDAY LECTURE 4PM TO 6PM/8-AUGUST-2026 (2ST LECTURE) LECTURE TIME CODE SOLVING 4PM TO 5.30PM/QUESTIO-5/Screenshot 2026-08-08 175948.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXCELR FOLDER/SATURDAY LECTURE 4PM TO 6PM/8-AUGUST-2026 (2ST LECTURE) LECTURE TIME CODE SOLVING 4PM TO 5.30PM/QUESTIO-5/index_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LEARNING-PYTHON/CODE_WITH_HARRY 10 HOURS PYTHON PRACTISE SET SOLVING/harrybhaipractiseset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../LEARNING-PYTHON/CODE_WITH_HARRY 10 HOURS PYTHON PRACTISE SET SOLVING/harrybhaipractiseset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LEARNING-PYTHON/GEMINI EVERYDAY PROBLEM SOLVING QUESTION BASED ON PYTHON/gemini questions" beforeDir="false" afterPath="$PROJECT_DIR$/../../LEARNING-PYTHON/GEMINI EVERYDAY PROBLEM SOLVING QUESTION BASED ON PYTHON/gemini questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LEARNING-PYTHON/RANDOM IMPORTANT PYTHON CODE/imp_thing_about_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../LEARNING-PYTHON/RANDOM IMPORTANT PYTHON CODE/imp_thing_about_python.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000143312" />
+      <entry key="S5" value="1.0000694419388605" />
+      <entry key="S10" value="1.0117780309484736" />
+      <entry key="S30" value="1.3611225105195004" />
+      <entry key="S60" value="1.8498382165396854" />
+      <entry key="M2" value="2.3058684968136314" />
+      <entry key="M5" value="2.870398077788444" />
+      <entry key="M10" value="3.8043456064496692" />
+      <entry key="M15" value="4.630346843294186" />
+      <entry key="M30" value="6.140451718296959" />
+      <entry key="H1" value="7.338833311042902" />
+      <entry key="H2" value="8.101026183153603" />
+      <entry key="H4" value="8.53187747446594" />
+      <entry key="D1" value="8.919248941452075" />
+      <entry key="W1" value="8.988395319829982" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9975769252783176" />
+      <entry key="S5" value="0.9990984846382104" />
+      <entry key="S10" value="1.011202902845114" />
+      <entry key="S30" value="1.3600171949519912" />
+      <entry key="S60" value="1.848640151322081" />
+      <entry key="M2" value="2.3049671310540663" />
+      <entry key="M5" value="2.8698968268399687" />
+      <entry key="M10" value="3.8039957451275437" />
+      <entry key="M15" value="4.630056927419792" />
+      <entry key="M30" value="6.140254917690156" />
+      <entry key="H1" value="7.338714194309365" />
+      <entry key="H2" value="8.100959999956983" />
+      <entry key="H4" value="8.531842504328935" />
+      <entry key="D1" value="8.919242830997621" />
+      <entry key="W1" value="8.988394439705942" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MSNnxBtGe6tZZpEe20VA1mArZ2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CourseTrackerApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Suyash/Documents/Learning/LEARNING JAVA/course-tracker/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0934877-fe09-4b1d-b927-253b3f227123" name="Changes" comment="" />
+      <created>1795340182422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795340182422</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
