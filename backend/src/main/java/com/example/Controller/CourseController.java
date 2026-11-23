@@ -1,5 +1,7 @@
-package com.example;
+package com.example.Controller;
 
+import com.example.Entity.Course;
+import com.example.Repo.CourseRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
