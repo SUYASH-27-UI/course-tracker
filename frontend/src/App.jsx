@@ -1,17 +1,36 @@
 import { useEffect, useState } from "react";
 
 const API = "http://localhost:8080/api/courses";
+const GOOGLE_LOGIN_URL = "http://localhost:8080/oauth2/authorization/google";
 
 export default function App() {
   const [courses, setCourses] = useState([]);
   const [name, setName] = useState("");
   const [teacher, setTeacher] = useState("");
   const [error, setError] = useState("");
+  const [token, setToken] = useState(() => localStorage.getItem("jwt_token") || "");
+
+  const getHeaders = () => ({
+    "Content-Type": "application/json",
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+  });
+
+  const handleSaveToken = (newToken) => {
+    const cleaned = newToken.trim();
+    setToken(cleaned);
+    if (cleaned) {
+      localStorage.setItem("jwt_token", cleaned);
+    } else {
+      localStorage.removeItem("jwt_token");
+    }
+  };
 
   const loadCourses = async () => {
     try {
       setError("");
-      const res = await fetch(API);
+      const res = await fetch(API, {
+        headers: getHeaders(),
+      });
       if (!res.ok) throw new Error("Failed to load courses");
       const data = await res.json();
       setCourses(data);
@@ -22,7 +41,7 @@ export default function App() {
 
   useEffect(() => {
     loadCourses();
-  }, []);
+  }, [token]);
 
   const handleAdd = async (e) => {
     e.preventDefault();
@@ -32,7 +51,7 @@ export default function App() {
       setError("");
       const res = await fetch(API, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getHeaders(),
         body: JSON.stringify({ name: name.trim(), teacher: teacher.trim() }),
       });
       if (!res.ok) throw new Error("Failed to add course");
@@ -48,7 +67,10 @@ export default function App() {
   const handleDelete = async (id) => {
     try {
       setError("");
-      const res = await fetch(`${API}/${id}`, { method: "DELETE" });
+      const res = await fetch(`${API}/${id}`, {
+        method: "DELETE",
+        headers: getHeaders(),
+      });
       if (!res.ok) throw new Error("Failed to delete course");
       await loadCourses();
     } catch (err) {
@@ -59,6 +81,18 @@ export default function App() {
   return (
     <div style={{ maxWidth: 640, margin: "40px auto", padding: "0 16px", fontFamily: "sans-serif" }}>
       <h2>Course Tracker</h2>
+
+      <div style={{ marginBottom: 20, padding: 12, border: "1px solid #ddd" }}>
+        <div style={{ marginBottom: 8 }}>
+          <a href={GOOGLE_LOGIN_URL}>Login with Google (OAuth 2.0)</a>
+        </div>
+        <input
+          placeholder="Paste JWT token here (after login)"
+          value={token}
+          onChange={(e) => handleSaveToken(e.target.value)}
+          style={{ width: "100%", padding: 8, boxSizing: "border-box" }}
+        />
+      </div>
 
       <form onSubmit={handleAdd} style={{ display: "flex", gap: 8, marginBottom: 20 }}>
         <input
@@ -83,30 +117,3 @@ export default function App() {
       {error && <p style={{ color: "crimson" }}>{error}</p>}
 
       {courses.length === 0 ? (
-        <p style={{ color: "#666" }}>No courses added yet.</p>
-      ) : (
-        <ul style={{ listStyle: "none", padding: 0 }}>
-          {courses.map((c) => (
-            <li
-              key={c.id}
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                padding: "12px 0",
-                borderBottom: "1px solid #ddd",
-              }}
-            >
-              <span>
-                <b>{c.name}</b> — {c.teacher}
-              </span>
-              <button onClick={() => handleDelete(c.id)} style={{ cursor: "pointer" }}>
-                Delete
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
